@@ -36,6 +36,8 @@ export default function App() {
 
   return (
     <>
+      <Toaster />
+
       <SearchBar
         onSubmit={handleSearch} />
 
@@ -58,8 +60,6 @@ export default function App() {
           movie={selectedMovie}
           onClose={() => setSelectedMovie(null)} />
       }
-
-      <Toaster />
     </>
   );
     
