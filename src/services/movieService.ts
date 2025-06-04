@@ -5,6 +5,7 @@ interface MovieResponse {
     page: number;
     results: Movie[];
     total_pages: number;
+    total_results: number;
 }
 
 const URL = 'https://api.themoviedb.org/3/search/movie';
